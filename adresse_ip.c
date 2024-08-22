@@ -83,9 +83,14 @@ int valid(char* A)
 	{
 		printf("C");
 	}
-	else
+	else if(class<=240)
 	{
 		printf("D");
 	}
+	else
+	{
+		printf("E");
+	}
+	
 	return 1;
 }
